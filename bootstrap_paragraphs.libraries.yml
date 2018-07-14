@@ -1,0 +1,48 @@
+woz-paragraphs:
+  css:
+    component:
+      css/woz-paragraphs.min.css: { minified: true }
+      css/woz-paragraphs-columns.min.css: { minified: true }
+      css/woz-paragraphs-colors.min.css: { minified: true }
+bp-accordion:
+  css:
+    component:
+      css/woz-paragraphs-accordion.min.css: { preprocess: false, minified: true }
+  js:
+    js/woz-paragraphs-accordion.js: { preprocess: false }
+  dependencies:
+    - core/jquery
+bp-carousel:
+  css:
+    component:
+      css/woz-paragraphs-carousel.min.css: { preprocess: false, minified: true }
+  dependencies:
+    - core/jquery
+bp-columns:
+  css:
+    component:
+      css/woz-paragraphs-columns.min.css: { preprocess: false, minified: true }
+bp-columns-two:
+  css:
+    component:
+      css/woz-paragraphs-columns-two.min.css: { preprocess: false, minified: true }
+bp-columns-three:
+  css:
+    component:
+      css/woz-paragraphs-columns-three.min.css: { preprocess: false, minified: true }
+bp-image:
+  css:
+    component:
+      css/woz-paragraphs-image.min.css: { preprocess: false, minified: true }
+bp-modal:
+  css:
+    component:
+      css/woz-paragraphs-modal.min.css: { preprocess: false, minified: true }
+  dependencies:
+    - core/jquery
+bp-tabs:
+  css:
+    component:
+      css/woz-paragraphs-tabs.min.css: { preprocess: false, minified: true }
+  dependencies:
+    - core/jquery
